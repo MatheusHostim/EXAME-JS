@@ -6,7 +6,7 @@ const DateContainer = styled.div`
   padding: 20px;
   border-radius: 10px;
   color: #fff;
-  background: url("./public/calendario_mensal_exemplo.png") no-repeat center center;
+  background: url("https://images.ctfassets.net/w6r2i5d8q73s/53iUtVNfCmK1XUesmtAkWa/deaf1905f4380485c234d5bb4ec93caf/calendario_mensal_exemplo.png") no-repeat center center;
   background-size: cover;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
