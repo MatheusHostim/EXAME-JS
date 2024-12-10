@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-// Container com o estilo de fundo e bordas
 const LocalStorageContainer = styled.div`
   margin: 20px;
   padding: 20px;
@@ -14,7 +13,6 @@ const LocalStorageContainer = styled.div`
   text-align: center;
 `;
 
-// Estilo do input com borda e efeitos ao focar
 const Input = styled.input`
   margin: 10px 0;
   padding: 12px;
@@ -34,7 +32,6 @@ const Input = styled.input`
   }
 `;
 
-// Estilo do botão com efeito hover
 const Button = styled.button`
   padding: 10px 20px;
   margin: 10px;
