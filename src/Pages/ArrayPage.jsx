@@ -89,7 +89,7 @@ const SectionTitle = styled.h3`
   color: #333;
   font-size: 18px;
 `;
-// função do array
+
 function ArrayPage() {
   
   const [item, setItem] = useState('');

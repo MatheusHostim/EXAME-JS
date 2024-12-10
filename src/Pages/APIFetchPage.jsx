@@ -62,10 +62,10 @@ const PostDescription = styled.p`
   font-size: 0.9rem;
   padding: 0 10px 10px;
 `;
-// imagem dos posts
+
 const postImage = "https://img.freepik.com/fotos-gratis/fundo-texturizado-abstrato_1258-30515.jpg?semt=ais_hybrid";
 
-// função posts
+
 function PostList() {
   const [posts, setPosts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -85,13 +85,13 @@ function PostList() {
   }, []);
 
 
-  // filtro post
+  
   const filteredPosts = posts.filter(post =>
     post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     post.body.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // pesquisa
+  
   return (
     <APIContainer>
       <h2>YouTube</h2>
